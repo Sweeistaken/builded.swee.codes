@@ -1,48 +1,16 @@
-.close-button {
-    background: none;
-    border: none;
-    color: white;
-    transition: color 0.1s;
-    transition-timing-function: ease-in;
-}
-.close-button:hover {
-    background: none;
-    border: none;
-    color: red;
-}
-.close-button:active {
-    background: none;
-    border: none;
-    color: pink;
-}
+/* Stripped-down SweeSS, original: https://swee.codes/style.css */
 html {
     background-color: #242424;
     color: white;
     height: 100%;
     font-family: sans-serif;
 }
-input[type="file"]::file-selector-button {
-    border: none;
-    border-radius: 5px;
-    background: linear-gradient(to right, green, deepskyblue);
-    transition: filter 0.1s;
-    transition-timing-function: ease-in;
-    padding: 10px;
-    display: inline-block;
-    cursor: pointer;
-}
-input[type="file"]::file-selector-button:hover {
-    filter: brightness(150%);
-}
-input[type="file"]::file-selector-button:active {
-    filter: brightness(75%);
-}
 a {
     color: white;
     text-decoration: none;
 }
 .link {
-    color: deepskyblue;
+    color: orange;
     text-decoration:underline;
     text-decoration-style: dotted;
 }
@@ -59,23 +27,6 @@ hr {
     border-color: white;
     font-size: 15pt;
     border-radius: 10px;
-}
-/*
-.content {
-    margin: 0px, 0px;
-    width: 100%;
-    height: 100%;
-    background-color: #242424;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    overflow: auto;
-}
-*/
-.media {
-    max-width:100%;
-}
-.external {
-    background: black;
 }
 .nav {
     font-size: 30px;
@@ -94,16 +45,12 @@ hr {
     border-width: 1px;
     border-radius: 10px;
     background: black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: inline-block;
-}
-.szcard {
-    background: linear-gradient(to bottom right, green, deepskyblue);
 }
 .download {
     border: none;
     border-radius: 5px;
-    background: linear-gradient(to right, green, deepskyblue);
+    background: linear-gradient(to right, orange, #ff6600);
     transition: filter 0.1s;
     transition-timing-function: ease-in;
     padding: 10px;
@@ -134,35 +81,6 @@ hr {
   overflow-wrap: normal;
   overflow-x: scroll;
   height:250px;
-}
-@font-face {
-    font-family: 'sweetlogo';
-    src: url('/sweetlogo.ttf') format('truetype'), url('/sweetlogo.otf') format('opentype'), url('/sweetlogo.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-.logo {
-    font-family: "sweetlogo";
-}
-.social {
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(36,36,36);
-    background-image: url("/lower-background.svg");
-    background-size: cover;
-    padding: 5px;
-    transition: filter 0.1s, transform 0.1s, width 0.5s;
-    width:24px;
-    height: 24px;
-    overflow: hidden;
-    transition-timing-function: ease-in;
-    display: inline-block;
-    word-wrap: break-word;
-}
-.social:hover {
-    filter: brightness(125%);
-    transform: translateY(-2px);
-    width: 200px;
 }
 .pfp {
     border-radius: 100%;
